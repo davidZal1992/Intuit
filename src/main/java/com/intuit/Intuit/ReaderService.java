@@ -27,7 +27,7 @@ public class ReaderService {
         }
     }
 
-    public StatisticReport calculateStatistics() {
+    private StatisticReport calculateStatistics() {
 
         Integer firstNameNullCounter = 0;
         Integer lastNameNullCounter = 0;
@@ -49,7 +49,7 @@ public class ReaderService {
     }
 
 
-    public double calculateAverage(){
+    private double calculateAverage(){
         return personDetailsList.stream()
                 .map(p -> p.getAge() == null ? new Person(p.getFirstName(),p.getLastName(),0) : p)
                 .collect(Collectors.averagingDouble(Person::getAge));
