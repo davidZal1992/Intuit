@@ -12,7 +12,7 @@
 2. Run program.
 
 ### Testing:
-1. I used my default csv files that i created, you can create your own and set and change the path in each test.
+1. I used my default csv files that i created, you can create your own and change the path in each test.
 
 ### Assumptions:
 1. Null value in csv files = empty cell.
