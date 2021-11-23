@@ -23,11 +23,11 @@
 **Q:** How will you change your implementation if you need to ingest a daily csv and return a
 report per Day ?
 
-**A**: A new field be added at StatisticReport Entity "timestamp". In addition new api post request will added for saveReportStatistics,  and for every day that the user will send the report through the api request, calculation of statistics will done, and then we will save the statistics in our db with the today date. when user will ask the statistic of report, we will return back the information using new query with "WHERE" caluse and search for today's date statistic.
+**A**: A new field will be added at StatisticReport Entity "timestamp". In addition new api post request will added for saveReportStatistics,  and for every day that the user will send the report through the api request, calculation of statistics will done, and then we will save the statistics in our db with the today date. when user will ask for statistis, we will return back the information using new query with "WHERE" caluse and search for today's date statistic.
 
 **Q**: How will you change your implementation if you need to ingest a daily csv and return
 statistics over a period of time (week,month,year,custom dates) ?
 
-**A**: New endpoint will added inside StatisticsRepository getStatisticBetweenPeriods with dates paramters. Then we will create custom query and get the all statistic from those dates. after that we can calculate the all nulls just buy sum values, and for average we will sum the total average per period and divide by total days for new average.
+**A**: New get request will added inside StatisticsRepository findStatisticBetweenPeriods with dates paramters. Then we will create custom query and get the all statistic from those dates. after that we can calculate the all nulls just buy sum values, and for average we will sum the total average per period and divide by total days for new average.
 
 
