@@ -27,6 +27,7 @@ report per Day ?
 
 **Q**: How will you change your implementation if you need to ingest a daily csv and return
 statistics over a period of time (week,month,year,custom dates) ?
+
 **A**: New endpoint will added inside StatisticsRepository getStatisticBetweenPeriods with dates paramters. Then we will create custom query and get the all statistic from those dates. after that we can calculate the all nulls just buy sum values, and for average we will sum the total average per period and divide by total days for new average.
 
 
