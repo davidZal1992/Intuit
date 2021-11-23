@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="515dce6f-bce2-4408-bae6-9f18c3d2b216" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/intuit/Intuit/IntuitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/intuit/Intuit/ReaderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/intuit/Intuit/dao/StatisticsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="21F5tgCBCZ4wToAWbkCHB92NdDF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15722656" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.intuit.Intuit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Intuit\src\main\java\com\intuit" />
+      <recent name="C:\Intuit\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IntuitApplicationTests">
+    <configuration name="IntuitApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intuit.Intuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intuit.Intuit" />
+      <option name="MAIN_CLASS_NAME" value="com.intuit.Intuit.IntuitApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntuitApplicationTests.shouldTestAverageAgeWhenAllRowsCorrect_correctAverageValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intuit.Intuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intuit.Intuit" />
+      <option name="MAIN_CLASS_NAME" value="com.intuit.Intuit.IntuitApplicationTests" />
+      <option name="METHOD_NAME" value="shouldTestAverageAgeWhenAllRowsCorrect_correctAverageValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntuitApplicationTests.shouldTestAverageAge_correctAverageValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intuit.Intuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intuit.Intuit" />
+      <option name="MAIN_CLASS_NAME" value="com.intuit.Intuit.IntuitApplicationTests" />
+      <option name="METHOD_NAME" value="shouldTestAverageAge_correctAverageValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntuitApplicationTests.shouldTestExcelFileWithFirstNameNulls_statisticReportWithFirstNameCounterGreaterThenOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intuit.Intuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intuit.Intuit" />
+      <option name="MAIN_CLASS_NAME" value="com.intuit.Intuit.IntuitApplicationTests" />
+      <option name="METHOD_NAME" value="shouldTestExcelFileWithFirstNameNulls_statisticReportWithFirstNameCounterGreaterThenOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntuitApplicationTests.shouldTestWrongFilePath_invalidPathThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intuit.Intuit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intuit.Intuit" />
+      <option name="MAIN_CLASS_NAME" value="com.intuit.Intuit.IntuitApplicationTests" />
+      <option name="METHOD_NAME" value="shouldTestWrongFilePath_invalidPathThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntuitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Intuit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.intuit.Intuit.IntuitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntuitApplicationTests" />
+        <item itemvalue="JUnit.IntuitApplicationTests.shouldTestExcelFileWithFirstNameNulls_statisticReportWithFirstNameCounterGreaterThenOne" />
+        <item itemvalue="JUnit.IntuitApplicationTests.shouldTestWrongFilePath_invalidPathThrowException" />
+        <item itemvalue="JUnit.IntuitApplicationTests.shouldTestAverageAgeWhenAllRowsCorrect_correctAverageValue" />
+        <item itemvalue="JUnit.IntuitApplicationTests.shouldTestAverageAge_correctAverageValue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="515dce6f-bce2-4408-bae6-9f18c3d2b216" name="Changes" comment="" />
+      <created>1637524211490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637524211490</updated>
+      <workItem from="1637524212741" duration="10189000" />
+      <workItem from="1637588140900" duration="2194000" />
+      <workItem from="1637591132034" duration="3307000" />
+      <workItem from="1637608688015" duration="8257000" />
+      <workItem from="1637690362774" duration="3638000" />
+      <workItem from="1637695198229" duration="1971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="178" key="#Deployment" timestamp="1637696427342">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="178" key="#Deployment/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696427342" />
+    <state x="1128" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1637696033315">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1128" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1637696033315" />
+    <state x="860" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1637696030683">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="860" y="174" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1637696030683" />
+    <state x="654" y="116" width="972" height="808" key="CommitChangelistDialog2" timestamp="1637697222988">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="654" y="116" width="972" height="808" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637697222988" />
+    <state x="1060" y="261" key="FileChooserDialogImpl" timestamp="1637696502781">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1060" y="261" key="FileChooserDialogImpl/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696502781" />
+    <state width="2517" height="293" key="GridCell.Tab.0.bottom" timestamp="1637696358191">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637695235819" />
+    <state width="2517" height="293" key="GridCell.Tab.0.bottom/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358191" />
+    <state width="2517" height="215" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1637695868175" />
+    <state width="2517" height="293" key="GridCell.Tab.0.center" timestamp="1637696358190">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1637695235819" />
+    <state width="2517" height="293" key="GridCell.Tab.0.center/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358190" />
+    <state width="2517" height="215" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1637695868175" />
+    <state width="2517" height="293" key="GridCell.Tab.0.left" timestamp="1637696358190">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1637695235818" />
+    <state width="2517" height="293" key="GridCell.Tab.0.left/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358190" />
+    <state width="2517" height="215" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1637695868175" />
+    <state width="2517" height="293" key="GridCell.Tab.0.right" timestamp="1637696358191">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1637695235819" />
+    <state width="2517" height="293" key="GridCell.Tab.0.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358191" />
+    <state width="2517" height="215" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1637695868175" />
+    <state width="2517" height="293" key="GridCell.Tab.1.bottom" timestamp="1637696358191">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="293" key="GridCell.Tab.1.bottom/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358191" />
+    <state width="2517" height="293" key="GridCell.Tab.1.center" timestamp="1637696358191">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="293" key="GridCell.Tab.1.center/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358191" />
+    <state width="2517" height="293" key="GridCell.Tab.1.left" timestamp="1637696358191">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="293" key="GridCell.Tab.1.left/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358191" />
+    <state width="2517" height="293" key="GridCell.Tab.1.right" timestamp="1637696358191">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="293" key="GridCell.Tab.1.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1637696358191" />
+    <state x="760" y="94" key="SettingsEditor" timestamp="1637696092778">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="760" y="94" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1637696092778" />
+    <state x="960" y="202" key="spring file set editor" timestamp="1637695958401">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="960" y="202" key="spring file set editor/0.0.2560.1040@0.0.2560.1040" timestamp="1637695958401" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/intuit/Intuit/controller/ReportController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/intuit/Intuit/IntuitApplicationTests.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="statisticsRepository.findAll()" language="JAVA" />
+        <watch expression="statisticReport" language="JAVA" />
+        <watch expression="statisticsRepository.findAll()" language="JAVA" />
+        <watch expression="(csv != &quot;&quot;) " language="JAVA" />
+        <watch expression="exception.getMessage()" language="JAVA" />
+        <watch expression="statisticsRepository.findAll()" language="JAVA" />
+        <watch expression="statisticsRepository.findAll()" language="JAVA" />
+      </configuration>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="record" language="JAVA" />
+        <watch expression="calculateAverage()" language="JAVA" />
+        <watch expression="person.getLastName()" language="JAVA" />
+        <watch expression="person.getLastName().equals(&quot;&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

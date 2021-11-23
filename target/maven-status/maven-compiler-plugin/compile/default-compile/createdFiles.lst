@@ -1,0 +1,6 @@
+com\intuit\Intuit\controller\ReportController.class
+com\intuit\Intuit\ReaderService.class
+com\intuit\Intuit\model\StatisticReport.class
+com\intuit\Intuit\model\Person.class
+com\intuit\Intuit\dao\StatisticsRepository.class
+com\intuit\Intuit\IntuitApplication.class
